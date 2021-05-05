@@ -7,8 +7,10 @@ from selenium.webdriver.common.by import By
 import time
 from pathlib import Path
 
-
-
+# Read in confidential data as variables
+f=open('data.txt','r')
+usr = f.readline(1)
+pwd = f.readline(2)
 
 # Grab logged in user home folder
 hmefldr = str(Path.home())
