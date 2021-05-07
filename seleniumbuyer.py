@@ -9,8 +9,11 @@ from pathlib import Path
 
 # Read in confidential data as variables
 f=open('data.txt','r')
-usr = f.readline(1)
-pwd = f.readline(2)
+#txt = f.read().split('\n')
+usr = f.readline().split('\n')
+usr = usr[0]
+pwd = f.readline().split('\n')
+pwd = pwd[0]
 
 # Grab logged in user home folder
 hmefldr = str(Path.home())
@@ -28,9 +31,11 @@ time.sleep(3)
 pyautogui.moveTo(1577, 178)
 pyautogui.click()
 driver.find_element(By.ID, "ap_email").send_keys(usr)
+time.sleep(1)
 driver.find_element(By.ID, "ap_email").send_keys(Keys.ENTER)
 time.sleep(2)
 driver.find_element(By.ID, "ap_password").send_keys(pwd)
+time.sleep(1)
 driver.find_element(By.ID, "ap_password").send_keys(Keys.ENTER)
 
 # Here I need to insert the search for the buy button loop with page refresh
