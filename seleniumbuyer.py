@@ -6,6 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 from pathlib import Path
+from retry import retry
 
 # Read in confidential data and convert to text, stripping out newline char in variables
 f=open('data.txt','r')
@@ -39,14 +40,17 @@ time.sleep(1)
 driver.find_element(By.ID, "ap_password").send_keys(Keys.ENTER)
 
 # Here I need to insert the search for the buy button loop with page refresh
-# This element is on the page...
-# driver.find_element(By.ID, "a-autoid-0-announce")
-element = driver.find_element(By.ID, "submit.buy-now")
-if element.is_displayed():
-  print ("Buy button found")
-else:
-  print ("Buy button not found")
+@retry()
+def seeker():
+  #try:
+  l= driver.find_element(By.ID, "submit.buy-now")
+  #l= driver.find_element(By.ID, "a-autoid-0-announce")
+  print("Button Not Found")
+  #except:
+  #  print("Element does not exist")
+seeker()
 
+print('Button Found, code continuing')
 #driver.refresh()
 #time.sleep(2)
 
