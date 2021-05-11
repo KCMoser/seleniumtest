@@ -1,0 +1,56 @@
+05/11/2021 03:02:47 PM retry starts
+05/11/2021 03:02:47 PM retrying
+05/11/2021 03:02:51 PM retry completes
+05/11/2021 03:03:47 PM retry starts
+05/11/2021 03:03:47 PM retrying
+05/11/2021 03:03:52 PM retrying
+05/11/2021 03:03:54 PM retrying
+05/11/2021 03:03:56 PM retrying
+05/11/2021 03:03:58 PM retrying
+05/11/2021 03:04:00 PM retrying
+05/11/2021 03:04:02 PM retrying
+05/11/2021 03:04:05 PM retrying
+05/11/2021 03:04:07 PM retrying
+05/11/2021 03:04:09 PM retrying
+05/11/2021 03:04:11 PM retrying
+05/11/2021 03:04:13 PM retrying
+05/11/2021 03:04:15 PM retrying
+05/11/2021 03:04:17 PM retrying
+05/11/2021 03:04:19 PM retrying
+05/11/2021 03:04:25 PM retrying
+05/11/2021 03:04:27 PM Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002396AAB5E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2d1d8d8c035b23db36ba11e243664d46/element
+05/11/2021 03:04:31 PM retrying
+05/11/2021 03:04:33 PM Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002396AAB5CA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2d1d8d8c035b23db36ba11e243664d46/element
+05/11/2021 03:04:37 PM retrying
+05/11/2021 03:04:40 PM Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002396AB0B0A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2d1d8d8c035b23db36ba11e243664d46/element
+05/11/2021 03:04:42 PM Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002396AB0B310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2d1d8d8c035b23db36ba11e243664d46/element
+05/11/2021 03:04:44 PM Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002396AB0B400>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2d1d8d8c035b23db36ba11e243664d46/element
+05/11/2021 03:04:48 PM retrying
+05/11/2021 03:04:50 PM Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002396AAB5E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2d1d8d8c035b23db36ba11e243664d46/element
+05/11/2021 03:04:52 PM Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002396AB0B760>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2d1d8d8c035b23db36ba11e243664d46/element
+05/11/2021 03:04:54 PM Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002396AB0B7F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2d1d8d8c035b23db36ba11e243664d46/element
+05/11/2021 03:04:58 PM retrying
+05/11/2021 03:05:00 PM Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002396AAB5D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2d1d8d8c035b23db36ba11e243664d46/element
+05/11/2021 03:05:02 PM Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002396AB0BCD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2d1d8d8c035b23db36ba11e243664d46/element
+05/11/2021 03:05:04 PM Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002396AB0BDC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2d1d8d8c035b23db36ba11e243664d46/element
+05/11/2021 03:05:08 PM retrying
+05/11/2021 03:06:33 PM retry starts
+05/11/2021 03:06:33 PM retrying
+05/11/2021 03:06:39 PM retrying
+05/11/2021 03:06:42 PM retrying
+05/11/2021 03:06:44 PM retrying
+05/11/2021 03:06:47 PM retrying
+05/11/2021 03:06:49 PM retrying
+05/11/2021 03:06:52 PM retrying
+05/11/2021 03:06:54 PM retrying
+05/11/2021 03:06:57 PM retrying
+05/11/2021 03:06:59 PM retrying
+05/11/2021 03:07:02 PM retrying
+05/11/2021 03:07:04 PM retrying
+05/11/2021 03:07:07 PM retrying
+05/11/2021 03:07:10 PM retrying
+05/11/2021 03:07:12 PM retrying
+05/11/2021 03:07:15 PM retrying
+05/11/2021 03:07:17 PM retrying
+05/11/2021 03:07:20 PM retrying
+05/11/2021 03:07:22 PM retrying
