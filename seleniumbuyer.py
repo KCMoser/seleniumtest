@@ -1,4 +1,3 @@
-
 import subprocess
 import pyautogui
 import logging
@@ -41,8 +40,12 @@ driver.get('https://www.amazon.com/PlayStation-5-Digital/dp/B08FC6MR62/ref=sr_1_
 time.sleep(3)
 # Log me in
 # Having trouble identifying the log in section, so switching to pyautogui :)
-pyautogui.moveTo(1577, 178)
+# Laptop coordinates:
+# pyautogui.moveTo(1577, 178)
+# Desktop coordinates:
+pyautogui.moveTo(1325, 137)
 pyautogui.click()
+
 driver.find_element(By.ID, "ap_email").send_keys(usr)
 time.sleep(1)
 driver.find_element(By.ID, "ap_email").send_keys(Keys.ENTER)
